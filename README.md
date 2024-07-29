@@ -6,76 +6,69 @@ Same as the previous labs, you need to set up your workspace (class and main() m
 
 ## Let's get started!
 
-First, let's look at the name of our .java file in the src/ directory and name your class accordingly and remember to make it **public**. Next, **create your main() method inside your class**.
+First, let's look at the name of our .java file in the `src/` directory and name your class accordingly and remember to make it `public`. Next, **create your main() method inside your class**.
 
 Now let's begin!
 
-## Arrays
+### Arrays
 
 In Java arrays are written a little differently than in C++.
 
 Arrays are used to store multiple values of the same type into a single variable. 
 
-Arrays are declared by placing the [] next to the variable's type.
+Arrays are declared by placing the `[ ]` **next to its data type** or **next to its identifier**.
 
 **Declaring an array in Java:**
 ```java
-int[] myNums;
+int[] num_array;
+// or
+String word_array[];
 ```
 
-In Java we don't have to allocate memory when declaring an array. We can allocate memory either during the declaration or afterwards.
+In Java we don't have to allocate memory when declaring an array. We can allocate memory either during the declaration or afterwards using `new`.
 
 **Allocating Memory:**
 ```java
 // During Declaration
-String[] names = new String[5];
+String[] text_array = new String[5];
 
 // After Declaration
-float[] realNums;
-realNums = new float[5];
+float[] nums_array;
+nums_array = new float[5];
 ```
 
-Similarly, you can initialize (assign values) to your array either during the declaration or afterwards by assigning values individually.
+Similarly, you can initialize (assign literal values) to your array either during the declaration using `{ }` or afterwards by assigning values individually using `[ ]`.
 
 **Initializing:**
 ```java
 // During Declaration
-String[] cars = {"Toyota", "Ford", "Chevy"};
+String[] car_array = {"Toyota", "Ford", "Chevy"};
 
 // After Declaration
-String[] colors = new String[3];
-colors[0] = "Blue";
-colors[1] = "Red";
-colors[2] = "Green";
+String[] color_array = new String[3];
+color_array[0] = "Blue";
+color_array[1] = "Red";
+color_array[2] = "Green";
 ```
 
-## Your program
+For more information on arrays in Java visit: https://www.w3schools.com/java/java_arrays.asp
 
-**Party Inventory**
+## Your Assignment
 
-Assume you are hosting a party and you have asked your guests to `each bring 1 item`. Write a program utilizing arrays to keep inventory of your `guest's names and their item`.
+### Party Inventory
 
-Make sure to `get the number of expected guests` to know how much memory to allocate.
+Create a birthday party planner program to **keep inventory of party supplies** using arrays.
 
-Your output should look like:
-```
-Welcome to my Party Inventory App!
+Prompt the user to **input how many inventory items are needed**.
 
-Expected guests: 3
+Next, have the user input the **name of the item** and **how many of each** are needed.
 
-Enter guest and item: Bob chips
+Lastly, **display back the items** in an organized manner.
 
-Enter guest and item: Carl dip
+**Expected Output:**
 
-Enter guest and item: Jane sodas
-
-Inventory:
-1. Bob chips
-2. Carl dip
-3. Jane sodas
-
-```
+<img src="img/expected-output.png" width="400px">
 
 ## Submit your assignment
 
-To submit your lab assignment click on the source control icon (3 circles with 2 lines) on your leftside navbar. Next, click on the '+' symbol next to "Changes" to stage your changes. Lastly, add a commit message (ex: "First commit") and click "Commit" then "Push" or "Sync Changes". And you're done!
+To submit your lab assignment click on the **Source Control** icon (3 circles with 2 lines) on your leftside navbar. Next, click on the **+** symbol next to **Changes** to stage your changes. Lastly, add a commit message (ex: "First commit") and click **Commit** then **Sync Changes**. And you're done!
