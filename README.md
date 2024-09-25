@@ -1,4 +1,4 @@
-# Lab Assignment 10
+# Lab Assignment 11
 
 In this lab you will practice working with arrays.
 
