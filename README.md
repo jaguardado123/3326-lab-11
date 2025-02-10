@@ -65,10 +65,12 @@ Next, have the user input the **name of the item** and **how many of each** are 
 
 Lastly, **display back the items** in an organized manner.
 
-**Expected Output:**
+**Suggested Output:**
 
 <img src="img/expected-output.png" width="400px">
 
 ## Submit your assignment
 
-To submit your lab assignment click on the **Source Control** icon (3 circles with 2 lines) on your leftside navbar. Next, click on the **+** symbol next to **Changes** to stage your changes. Lastly, add a commit message (ex: "First commit") and click **Commit** then **Sync Changes**. And you're done!
+[Grading Criteria](https://joselitoguardado.dev/3326/labs/Lab_11.pdf)
+
+[How to Submit Assignments to GitHub](https://joselitoguardado.dev/3326/How_to_Submit_Assignments_to_GitHub.pdf)
